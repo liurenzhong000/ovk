@@ -1,0 +1,18 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: leyou-sms
+  rabbitmq:
+    host: 192.168.100.102
+    username: guest
+    password: guest
+    virtual-host: /
+  redis:
+    host: 127.0.0.1
+sms:
+  accessKeyId: LTAI4FukYMeSX5Pvdq3gHGeD
+  accessSecret: QFxHwNJZWB4KJ3G0tyJP4yWv2PfFKd
+  templateCode: SMS_183195424
+  signName: 微论坛
+  expire: 5 #验证码有效期

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="leyou_item_serve" />
+        <module name="leyou_common" />
+        <module name="leyou_user_service" />
+        <module name="leyou_user_interface" />
+        <module name="leyou_cart" />
+        <module name="leyou_item_service" />
+        <module name="leyou_getway" />
+        <module name="leyou_sms" />
+        <module name="leyou_item_interface" />
+        <module name="leyou_registry" />
+        <module name="leyou_search" />
+        <module name="leyou_page" />
+        <module name="leyou_upload" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="leyou_item_servce" target="1.8" />
+      <module name="leyou_item_service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="leyou_cart" options="-parameters" />
+      <module name="leyou_common" options="-parameters" />
+      <module name="leyou_getway" options="-parameters" />
+      <module name="leyou_item" options="-parameters" />
+      <module name="leyou_item_interface" options="-parameters" />
+      <module name="leyou_item_servce" options="-parameters" />
+      <module name="leyou_item_serve" options="-parameters" />
+      <module name="leyou_item_service" options="-parameters" />
+      <module name="leyou_page" options="-parameters" />
+      <module name="leyou_registry" options="-parameters" />
+      <module name="leyou_search" options="-parameters" />
+      <module name="leyou_sms" options="-parameters" />
+      <module name="leyou_upload" options="-parameters" />
+      <module name="leyou_user" options="-parameters" />
+      <module name="leyou_user_interface" options="-parameters" />
+      <module name="leyou_user_service" options="-parameters" />
+    </option>
+  </component>
+</project>

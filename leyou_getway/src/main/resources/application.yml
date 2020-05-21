@@ -1,0 +1,64 @@
+server:
+  port: 10088
+spring:
+  application:
+    name: leyou-getway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10087/eureka
+    fetch-registry: true
+    register-with-eureka: true
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+zuul:
+  prefix: /api #设置路由前缀
+  routes:
+    leyou-item: /item/**
+    leyou-upload:
+      path: /upload/**
+      serviceId: leyou-upload
+      strip-prefix: false  #不去除匹配路径的前缀
+    leyou-search:
+      path: /search/**
+      serviceId: leyou-search
+      strip-prefix: false #不去除匹配路径的前缀
+    leyou-user:
+      path: /user/**
+      serviceId: leyou-user
+      strip-prefix: false #不去除匹配路径的前缀
+    leyou-cart:
+       path: /cart/**
+       serviceId: leyou-cart
+       strip-prefix: false #不去除匹配路径的前缀
+  sensitive-headers: #匹配禁止使用的头信息，这里设置为空，否则set-cookie无效
+  add-host-header: true #携带请求本身的head头信息
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000 #熔断超时时长
+ribbon:
+  ConnectTimeout: 500 #ribbon链接时长
+  ReadTimeout: 2000 #
+  MaxAutoRetries: 0 #当前服务重试次数
+  MaxAutoRetriesNextServer: 0 #切换服务重试次数
+ly:
+  jwt:
+    pubKeyPath: /Users/liurenzhong/rsa.pub # 公钥地址
+    cookieName: LY_TOKEN
+  filter:
+    allowPaths:
+      - /api/search
+      - /api/user/register
+      - /api/user/check
+      - /api/user/code
+      - /api/user/login
+      - /api/user/send
+      - /api/item
+      - /api/cart
+

@@ -1,0 +1,5 @@
+com/leyou/upload/controller/UploadController.class
+com/leyou/upload/config/UploadProperties.class
+com/leyou/upload/config/FastDFSClentImporter.class
+com/leyou/upload/UploadsApplication.class
+com/leyou/upload/service/UploadService.class

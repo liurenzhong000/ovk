@@ -1,0 +1,13 @@
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_search/src/main/java/com/leyou/search/client/SkuClient.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_search/src/main/java/com/leyou/search/pojo/Goods.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_search/src/main/java/com/leyou/search/pojo/SearchPageVO.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_search/src/main/java/com/leyou/search/client/CategoryClient.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_search/src/main/java/com/leyou/search/service/SearchService.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_search/src/main/java/com/leyou/search/controller/SearchController.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_search/src/main/java/com/leyou/search/repository/GoodsRepository.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_search/src/main/java/com/leyou/search/SearchApplication.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_search/src/main/java/com/leyou/search/client/SpuClient.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_search/src/main/java/com/leyou/search/client/SpecGroupParamClient.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_search/src/main/java/com/leyou/search/pojo/SearchRequest.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_search/src/main/java/com/leyou/search/listener/ItemListener.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_search/src/main/java/com/leyou/search/client/BrandClient.java

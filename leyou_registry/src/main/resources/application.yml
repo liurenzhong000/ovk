@@ -1,0 +1,17 @@
+server:
+  port: 10087
+spring:
+  application:
+    name: leyou-registry
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://127.0.0.1:10087/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+  server:
+    enable-self-preservation: true #开启自我保护模式
+    eviction-interval-timer-in-ms: 60000  #注册表清理间隔时长，规定时间内eureka没有收到服务心跳则进行清理

@@ -1,0 +1,13 @@
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_item/leyou_item_interface/src/main/java/com/leyou/item/api/BrandApi.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_item/leyou_item_interface/src/main/java/com/leyou/item/api/CategoryApi.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_item/leyou_item_interface/src/main/java/com/leyou/item/pojo/Stock.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_item/leyou_item_interface/src/main/java/com/leyou/item/api/SkuApi.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_item/leyou_item_interface/src/main/java/com/leyou/item/pojo/Sku.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_item/leyou_item_interface/src/main/java/com/leyou/item/pojo/Category.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_item/leyou_item_interface/src/main/java/com/leyou/item/api/SpecGroupParamApi.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_item/leyou_item_interface/src/main/java/com/leyou/item/pojo/Brand.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_item/leyou_item_interface/src/main/java/com/leyou/item/pojo/SpecGroup.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_item/leyou_item_interface/src/main/java/com/leyou/item/api/SpuApi.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_item/leyou_item_interface/src/main/java/com/leyou/item/pojo/SpuDetail.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_item/leyou_item_interface/src/main/java/com/leyou/item/pojo/Spu.java
+/Users/liurenzhong/Desktop/pros/leyou_master/leyou_item/leyou_item_interface/src/main/java/com/leyou/item/pojo/SpecParam.java

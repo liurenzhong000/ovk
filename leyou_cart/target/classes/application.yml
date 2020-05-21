@@ -1,0 +1,18 @@
+server:
+  port: 9003
+spring:
+  application:
+    name: leyou-cart
+  redis:
+    host: 127.0.0.1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10087/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+ly:
+  jwt:
+    pubKeyPath: /Users/liurenzhong/rsa.pub # 公钥地址
+    cookieName: LY_TOKEN

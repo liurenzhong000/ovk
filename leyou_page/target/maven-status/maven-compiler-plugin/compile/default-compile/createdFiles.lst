@@ -1,0 +1,9 @@
+com/leyou/page/client/SpuClient.class
+com/leyou/page/PageApplication.class
+com/leyou/page/client/BrandClient.class
+com/leyou/page/client/SpecGroupParamClient.class
+com/leyou/page/client/SkuClient.class
+com/leyou/page/listener/ItemListener.class
+com/leyou/page/controller/PageController.class
+com/leyou/page/service/PageService.class
+com/leyou/page/client/CategoryClient.class

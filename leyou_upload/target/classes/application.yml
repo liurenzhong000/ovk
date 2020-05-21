@@ -1,0 +1,35 @@
+server:
+  port: 10000
+spring:
+  application:
+    name: leyou-upload
+  servlet:
+    multipart:
+      max-file-size: 10MB #单个文件上传大小限制
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10087/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+
+#FastDFS配置信息
+fdfs:
+  connect-timeout: 2500
+  so-timeout: 600
+  thumb-image:
+    height: 60
+    width: 60
+  tracker-list:
+    - 127.0.0.1:22122
+#文件上传baseUrl以及支持的文件类型配置
+leyou:
+  upload:
+    baseUrl: http://image.leyou.com/
+    allowTypes:
+      - image/jpeg
+      - image/jpg
+      - image/png
+
+

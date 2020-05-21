@@ -1,0 +1,19 @@
+server:
+  port: 20001
+spring:
+  application:
+    name: leyou-page
+  thymeleaf:
+    cache: false
+  rabbitmq:
+    host: 127.0.0.1
+    username: guest
+    password: guest
+    virtual-host: /
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10087/eureka
+  instance:
+    ip-address: 127.0.0.1
+    prefer-ip-address: true

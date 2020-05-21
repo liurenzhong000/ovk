@@ -1,0 +1,32 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: leyou-item
+  datasource:
+    username: root
+    url: jdbc:mysql://127.0.0.1:60330/ly?useUnicode=true&characterEncoding=utf8&useSSL=false
+    password: 123456
+  rabbitmq:
+    host: 127.0.0.1
+    username: guest
+    password: guest
+    virtual-host: /
+    template:
+      retry:
+        enabled: true
+        max-interval: 1000ms
+        initial-interval: 1000ms
+        multiplier: 2
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10087/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+pagehelper:
+  helper-dialect: mysql
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl

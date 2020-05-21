@@ -1,0 +1,44 @@
+server:
+  port: 9001
+  tomcat:
+    max-threads: 800
+spring:
+  application:
+    name: leyou-user
+  jackson:
+    default-property-inclusion: non_null
+  datasource:
+    username: root
+    url: jdbc:mysql://127.0.0.1:60330/activiti?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+    password: 123456
+  redis:
+    cluster:
+      nodes: 127.0.0.1:6379
+  #host: 127.0.0.1
+  rabbitmq:
+    host: 192.168.100.102
+    username: guest
+    password: guest
+    virtual-host: /
+  activiti:
+    db-history-used: true
+    history-level: audit
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10087/eureka
+  instance:
+    ip-address: 127.0.0.1
+    prefer-ip-address: true
+user:
+  sms:
+    exchange: ly.sms.exchange
+    routingKey: sms.verify.code
+leyou:
+  jwt:
+    secret: leyou@Login(Auth}*^31)&heiMa% # 登录校验的密钥
+    pubKeyPath: /Users/liurenzhong/rsa.pub # 公钥地址
+    priKeyPath: /Users/liurenzhong/rsa.pri # 私钥地址
+    expire: 30 # 过期时间,单位分钟
+    cookieName: LY_TOKEN
+    cookieMaxAge: 1800

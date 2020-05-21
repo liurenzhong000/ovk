@@ -1,0 +1,5 @@
+com/leyou/getway/filter/AuthFilter.class
+com/leyou/getway/config/FilterProperties.class
+com/leyou/getway/config/JwtProperties.class
+com/leyou/getway/GetWayApplication.class
+com/leyou/getway/config/GlobalCorsConfig.class
